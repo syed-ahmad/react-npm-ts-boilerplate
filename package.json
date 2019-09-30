@@ -1,0 +1,35 @@
+{
+  "name": "tmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "rm ./lib/* && tsc",
+    "prepublish": "npm run build",
+    "test": "./test.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/enzyme": "^2.7.6",
+    "@types/mocha": "^2.2.40",
+    "@types/react": "^15.0.18",
+    "@types/react-dom": "^0.14.23",
+    "@types/sinon": "^1.16.36",
+    "chai": "^3.5.0",
+    "enzyme": "^2.8.0",
+    "jsdom": "^9.12.0",
+    "mocha": "^3.2.0",
+    "react": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "sinon": "^2.1.0"
+  },
+  "files": [
+    "lib",
+    "LICENSE",
+    "main.js"
+  ],
+  "types": "./lib/hello.d.ts"
+}
